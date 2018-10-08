@@ -1,6 +1,6 @@
 # DataStructureNotes
 数据结构笔记
-## 一、 数组
+## 一、 数组 (Array) - 是一种线性表数据结构
 #### 1. 数组支持随机访问, 根据下标随机访问的时间复杂度为 O(1).
 
 #### 2. 数组：为什么很多编程语言中数组都从0开始编号？
@@ -24,4 +24,10 @@
             users.add(xxx);
         }
 
-## 二、 链表
+## 二、 链表 (Linked list)
+#### 1. 常见策略：
+###### 1. 先进先出 FIFO - Fist In, First Out
+###### 2. 最少使用 LFU - Least Frequently Used
+###### 3. 最近最少使用 LRU - Least Recently Used
+
+#### 2. 
