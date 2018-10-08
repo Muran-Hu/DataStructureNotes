@@ -26,8 +26,11 @@
 
 ## 二、 链表 (Linked list)
 #### 1. 常见策略：
-###### 1. 先进先出 FIFO - Fist In, First Out
-###### 2. 最少使用 LFU - Least Frequently Used
-###### 3. 最近最少使用 LRU - Least Recently Used
+        1. 先进先出 FIFO - Fist In, First Out
+        2. 最少使用 LFU - Least Frequently Used
+        3. 最近最少使用 LRU - Least Recently Used
 
-#### 2. 
+#### 2. 常见链表结构
+        1. 单链表
+        2. 双向链表 - LinkedHashMap
+        3. 循环链表
