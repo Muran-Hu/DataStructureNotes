@@ -10,3 +10,15 @@
     a[k]_address = base_address + (k-1) * type_size
   
 ######对比两个公式, 不难发现，从 1 开始编号, 每次随机访问数组元素就多了一次减法运算, 对于 CPU 来说, 就是多了一次减法指令.
+
+#### 2. 二维数组内存寻址公式：对于 m * n 的数组, a[i][j](i < m, j < n) 的地址为：
+        
+        a[i][j]_address = base_address + (i * n + j) * type_size
+
+#### 2. ArrayList: 每次存储空间不够，他都会将空间自动扩容 1.5 倍大小. 扩容涉及内存申请和数据搬移，是比较耗时的，所以，如果事先能确定需要存储的数据大小，最好在创建 ArrayList 的时候事先指定数据大小.
+        ArrayList<User> users = new ArrayList(1000);
+        for(int i=0; i<1000; i++) {
+            users.add(xxx);
+        }
+
+#### 3. 
